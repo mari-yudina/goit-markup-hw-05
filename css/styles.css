@@ -21,6 +21,7 @@ address {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 p,
@@ -475,6 +476,7 @@ img {
 }
 
 .footer-box {
+  margin-right: 80px;
 }
 
 .social-media-text {
@@ -525,4 +527,181 @@ img {
   background-color: #4d5ae5;
 }
 
+.footer-input-box {
+  display: flex;
+}
+
+.footer-label {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  margin-right: 24px;
+}
+
+.social-media-text {
+}
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  background: transparent;
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-send-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #fff;
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  transform: translateY(100%);
+}
+
+.footer-icon-send {
+  fill: #fff;
+}
+
 /* ---------------/ FOOTER------------------- */
+
+/* --------------- Modal Overlay------------------- */
+
+.modal-overlay {
+  /* background-color: rgba(46, 47, 66, 0.4);
+
+  position: fixed;
+ top: 0;
+ left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: ; */
+}
+
+.modal-overlay.is-open {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fcfcfc;
+  max-width: 408px;
+  max-height: ;
+  overflow-y: auto;
+  padding: 24px;
+}
+.modal-form-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal-form-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.modal-label-comment {
+  margin-bottom: 16px;
+}
+
+.modal-label-checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.modal-label-textarea {
+}
+
+.modal-label-textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+.modal-form-input-checkbox {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal-form-linc {
+  text-decoration: underline;
+}
+
+.modal-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* ---------------/ Modal Overlay------------------- */
