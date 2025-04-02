@@ -689,44 +689,115 @@
 
     <div class="modal-overlay">
       <div class="modal">
+        <button
+          class="modal-close-btn"
+          type="button"
+        >
+          <svg
+            class="footer-icon-close"
+            width="8"
+            height="8"
+          >
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
         <p class="modal-form-text">
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
-          <label class="modal-label"
-            >Name<input
-              class="modal-form-input"
-              type="text"
-          /></label>
-          <label class="modal-label"
-            >Phone<input
-              class="modal-form-input"
-              type="tel"
-          /></label>
-          <label class="modal-label"
-            >Email<input
-              class="modal-form-input"
-              type="email"
-          /></label>
-          <label class="modal-label modal-label-comment"
-            >Comment<textarea
-              class="modal-form-input modal-label-textarea"
-              name=""
-              id=""
+          <div class="modal-field">
+            <label
+              class="modal-label"
+              for="user-name"
+              >Name</label
+            >
+            <div class="modal-input-box">
+              <input
+                class="modal-form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                required
+              />
+              <svg
+                class="footer-icon-name"
+                width="18"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label
+              class="modal-label"
+              for="user-tel"
+              >Phone</label
+            >
+            <div class="modal-input-box">
+              <input
+                class="modal-form-input"
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                required
+              />
+              <svg
+                class="footer-icon-name"
+                width="18"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label
+              class="modal-label"
+              for="user-email"
+              >Email</label
+            >
+            <div class="modal-input-box">
+              <input
+                class="modal-form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                required
+              />
+              <svg
+                class="footer-icon-name"
+                width="18"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label
+              class="modal-label modal-label-comment"
+              for="modal-form-textarea"
+              >Comment</label
+            >
+            <textarea
+              class="modal-label-textarea"
+              name="modal-form-textarea"
+              id="modal-form-textarea"
               type="text"
               placeholder="Text input"
             ></textarea>
-          </label>
+          </div>
 
-          <label class="modal-label modal-label-checkbox"
-            ><a
-              class="modal-form-linc"
-              href="#"
-              >Privacy Policy</a
-            >I accept the terms and conditions of the<input
-              class="modal-form-input-checkbox"
-              type="checkbox"
-          /></label>
+          <label class="modal-label modal-label-checkbox"></label
+          ><a
+            class="modal-form-linc"
+            href="#"
+            >Privacy Policy</a
+          >I accept the terms and conditions of the<input
+            class="modal-form-input-checkbox"
+            type="checkbox"
+          />
           <button class="modal-form-btn">Send</button>
         </form>
       </div>
