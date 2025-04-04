@@ -625,7 +625,7 @@ img {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-  max-width: 408px;
+  width: 408px;
   min-height: 584px;
   position: absolute;
   top: 50%;
@@ -698,7 +698,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .modal-form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -800,12 +800,12 @@ img {
   margin-bottom: 24px; */
 }
 
-.modal-form-input-checkbox {
+.visually-hidden {
   /* border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4); */
 }
 
-.modal-form-input-checkbox:checked + .modal-label-checkbox {
+.visually-hidden:checked + .modal-label-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
