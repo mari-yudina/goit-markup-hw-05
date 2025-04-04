@@ -688,7 +688,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -698,7 +698,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .modal-form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
