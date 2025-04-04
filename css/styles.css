@@ -552,7 +552,10 @@ img {
 }
 
 .footer-input {
-  border: 1px solid #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
@@ -566,7 +569,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-send-btn {
@@ -577,7 +580,7 @@ img {
 
   color: #fff;
   border-radius: 4px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
 
