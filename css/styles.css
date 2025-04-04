@@ -543,6 +543,11 @@ img {
   margin-right: 24px;
 }
 
+.footer-input-form {
+  display: flex;
+  gap: 24px;
+}
+
 .social-media-text {
 }
 
