@@ -479,6 +479,9 @@ img {
   margin-right: 80px;
 }
 
+.footer-input-text {
+}
+
 .social-media-text {
   font-weight: 500;
   font-size: 16px;
@@ -528,7 +531,8 @@ img {
 }
 
 .footer-input-box {
-  display: flex;
+  /* display: flex; */
+  margin-right: 24px;
 }
 
 .footer-label {
@@ -576,7 +580,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  transform: translateY(100%);
+  /* transform: translateY(100%); */
 }
 
 .footer-icon-send {
@@ -593,9 +597,9 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 }
 
 /* .modal-overlay.is-open {
