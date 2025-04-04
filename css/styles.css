@@ -555,7 +555,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: ffffff;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
@@ -660,12 +660,14 @@ img {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-icon-close {
   display: block;
   margin: auto auto;
   background-color: rgba(0, 0, 0, 0.1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-text {
@@ -686,7 +688,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-label {
@@ -744,6 +746,7 @@ img {
   width: 100%;
   height: 120px;
   background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
   padding: 8px 16px;
   resize: none;
@@ -767,11 +770,18 @@ img {
 }
 
 .modal-label-checkbox-span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label-checkbox {
@@ -796,7 +806,9 @@ img {
 }
 
 .modal-form-input-checkbox:checked + .modal-label-checkbox {
-  background-color: #632424;
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
 }
 
 .modal-label-checkbox-icon {
@@ -820,7 +832,7 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -829,6 +841,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ---------------/ Modal Overlay------------------- */
