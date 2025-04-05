@@ -581,11 +581,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
 }
 
 .footer-icon-send {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* ---------------/ FOOTER------------------- */
@@ -797,6 +797,9 @@ img {
 .modal-form-linc {
   display: inline;
   line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
   margin-left: 3px;
 }
 
